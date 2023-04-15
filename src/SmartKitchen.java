@@ -1,17 +1,17 @@
 public class SmartKitchen {
 
-    CoffeeMaker brewMaster=new CoffeeMaker();
-    Dishwasher dishwasher=new Dishwasher();
+    CoffeeMaker brewMaster;
+    Dishwasher dishwasher;
 
-    Refridgerator food=new Refridgerator();
+    Refridgerator food;
 
 
-  /*  public SmartKitchen(CoffeeMaker brewMaster, Dishwasher dishwasher, Refridgerator food) {
-        this.brewMaster = brewMaster;
-        this.dishwasher = dishwasher;
-        this.food = food;
+   public SmartKitchen() {
+        brewMaster = new CoffeeMaker();
+        this.dishwasher=new Dishwasher();
+        this.food =new Refridgerator();
     }
-*/
+
 
     public void addWater(){
         food.orderFood();

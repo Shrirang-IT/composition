@@ -18,4 +18,15 @@ public class Main {
         smartKitchen.doKitchenWork();
     }
 }
-
+/*
+    Please answer the following questionnaire
+        Do you want food
+        false
+        Do you want coffee
+        true
+        Do you want to wash dishes
+        true
+        Food not available
+        Coffee is available
+        Dish washer available
+*/
