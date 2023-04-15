@@ -5,7 +5,7 @@ public class Main {
 
         SmartKitchen smartKitchen =new SmartKitchen();
         Scanner sc=new Scanner(System.in);
-        boolean  [] arr=new boolean[3];
+        boolean  [] arr=new boolean[3]; //boolean array declaration
       System.out.println("Please answer the following questionnaire");
       System.out.println("Do you want food");
       arr[0]=sc.nextBoolean();
